@@ -14,10 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="@string/search"
-        app:endIconDrawable="@drawable/clear"
+        app:endIconDrawable="@drawable/search"
         app:endIconMode="clear_text"
         app:hintAnimationEnabled="false"
-        app:startIconDrawable="@drawable/search">
+        app:startIconDrawable="@drawable/clear">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_search"

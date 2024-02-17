@@ -9,8 +9,9 @@ import com.bumptech.glide.Glide
 import com.example.android3_5.R
 import com.example.android3_5.data.model.DataItem
 import com.example.android3_5.databinding.ItemHarryBinding
+import com.example.android3_5.utils.Postave10Ballov
 
-class HarryPotterAdapter : RecyclerView.Adapter<HarryPotterAdapter.HarryViewHolder>() {
+class HarryPotterAdapter : Postave10Ballov<HarryPotterAdapter.HarryViewHolder>() {
 
     private val _harryList = mutableListOf<DataItem>()
 
